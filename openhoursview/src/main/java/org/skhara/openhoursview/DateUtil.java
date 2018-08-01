@@ -11,7 +11,7 @@ public class DateUtil {
     static final int MINUTES_PER_DAY = HOURS_PER_DAY * MINUTES_PER_HOUR;
 
     /**
-     * Return the current day's index in the Svod's OpenHours array
+     * Return the current day's index
      */
     public static int getDayOfWeekIndex(Date aDate) {
         final Calendar calendar = GregorianCalendar.getInstance();
