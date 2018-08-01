@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="oh_state_open">Сейчас открыто</string>
+    <string name="oh_state_close_soon">Скоро закроется</string>
+    <string name="oh_state_close">Сейчас закрыто</string>
+    <string name="oh_day_closed">закрыто</string>
+    <string name="oh_day_and_night">круглосуточно</string>
+
+    <string-array name="oh_days_of_week">
+        <item>ПН\u0020\u0020%s</item>
+        <item>ВТ\u0020\u0020%s</item>
+        <item>СР\u0020\u0020%s</item>
+        <item>ЧТ\u0020\u0020%s</item>
+        <item>ПТ\u0020\u0020%s</item>
+        <item>СБ\u0020\u0020%s</item>
+        <item>ВС\u0020\u0020%s</item>
+    </string-array>
+</resources>

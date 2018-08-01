@@ -1,0 +1,17 @@
+<resources>
+    <string name="oh_state_open">Open now</string>
+    <string name="oh_state_close_soon">Soon to close</string>
+    <string name="oh_state_close">Closed</string>
+    <string name="oh_day_closed">closed</string>
+    <string name="oh_day_and_night">day and night</string>
+
+    <string-array name="oh_days_of_week">
+        <item>MON\u0020\u0020%s</item>
+        <item>TUE\u0020\u0020%s</item>
+        <item>WED\u0020\u0020%s</item>
+        <item>THU\u0020\u0020%s</item>
+        <item>FRI\u0020\u0020%s</item>
+        <item>SAT\u0020\u0020%s</item>
+        <item>SUN\u0020\u0020%s</item>
+    </string-array>
+</resources>

@@ -1,18 +1,43 @@
-<?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".example.MainActivity">
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:aContext=".MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
+    <org.skhara.openhoursview.OpenHoursView
+        android:id="@+id/openHoursView"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:layout_width="match_parent"
+        android:paddingLeft="50dp"
+        android:paddingStart="50dp"
+        tools:ignore="RtlSymmetry" />
 
-</android.support.constraint.ConstraintLayout>
+    <Button
+        android:id="@+id/open_button"
+        android:layout_below="@id/openHoursView"
+        android:text="@string/get_open"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClick"/>
+
+    <Button
+        android:id="@+id/soon_close_button"
+        android:layout_below="@id/open_button"
+        android:text="@string/soon_close"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClick"/>
+
+    <Button
+        android:id="@+id/close_button"
+        android:layout_below="@id/soon_close_button"
+        android:text="@string/get_close"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClick"/>
+
+</RelativeLayout>

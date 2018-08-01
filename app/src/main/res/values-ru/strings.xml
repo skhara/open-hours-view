@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="get_open">Открыть</string>
+    <string name="soon_close">Скоро закрыть</string>
+    <string name="get_close">Закрыть</string>
+</resources>
